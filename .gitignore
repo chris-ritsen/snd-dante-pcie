@@ -1,0 +1,12 @@
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+Module.symvers
+modules.order
+.tmp_versions/
+docs/GN4124-CBE3.pdf
+docs/GN4124.pdf
+docs/Implementing Multi-channel DMA with the GN412x IP.pdf
+reference/

@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-23T12:58:45.050580",
+    "label": "original_idle",
+    "kernel": "6.18.9-arch1-2",
+    "driver": "original"
+  },
+  "bar0_registers": {
+    "UNKNOWN_04": {
+      "offset": "0x0004",
+      "value": "0x00000007"
+    },
+    "VDMA_EVENT": {
+      "offset": "0x0010",
+      "value": "0x0000000c"
+    },
+    "VDMA_EVENT_EN": {
+      "offset": "0x0014",
+      "value": "0x0000ffff"
+    },
+    "VDMA_SYS_ADDR_LO": {
+      "offset": "0x0018",
+      "value": "0x49c00700"
+    },
+    "VDMA_SYS_ADDR_HI": {
+      "offset": "0x001c",
+      "value": "0x00000003"
+    },
+    "VDMA_DPTR": {
+      "offset": "0x0020",
+      "value": "0x0000003f"
+    },
+    "VDMA_XFER_CTL": {
+      "offset": "0x0024",
+      "value": "0x00010040"
+    },
+    "VDMA_RA": {
+      "offset": "0x0028",
+      "value": "0x00000024"
+    },
+    "VDMA_RB": {
+      "offset": "0x002c",
+      "value": "0x00000000"
+    },
+    "VDMA_CSR": {
+      "offset": "0x0030",
+      "value": "0x00000001"
+    },
+    "UNKNOWN_34": {
+      "offset": "0x0034",
+      "value": "0x00020020"
+    },
+    "UNKNOWN_3C": {
+      "offset": "0x003c",
+      "value": "0x00000003"
+    },
+    "FIRMWARE_VERSION": {
+      "offset": "0x0070",
+      "value": "0x20010010"
+    },
+    "SAMPLE_COUNT_LO": {
+      "offset": "0x0074",
+      "value": "0xe51dcdc7"
+    },
+    "SAMPLE_COUNT_HI": {
+      "offset": "0x0078",
+      "value": "0x00000003"
+    }
+  },
+  "bar4_registers": {
+    "PCI_SYS_CFG_SYSTEM": {
+      "offset": "0x0800",
+      "value": "0x00025000"
+    },
+    "LB_CTL": {
+      "offset": "0x0804",
+      "value": "0x00004202"
+    },
+    "CLK_CSR": {
+      "offset": "0x0808",
+      "value": "0xe001f07c"
+    },
+    "PCI_BAR_CONFIG": {
+      "offset": "0x080c",
+      "value": "0x00000000"
+    },
+    "INT_CTRL": {
+      "offset": "0x0810",
+      "value": "0x00000002"
+    },
+    "INT_STAT": {
+      "offset": "0x0814",
+      "value": "0x00000000"
+    },
+    "PEX_ERROR_STAT": {
+      "offset": "0x0818",
+      "value": "0x00100000"
+    },
+    "INT_CFG0": {
+      "offset": "0x0820",
+      "value": "0x00000020"
+    },
+    "INT_CFG1": {
+      "offset": "0x0824",
+      "value": "0x00000000"
+    },
+    "INT_CFG2": {
+      "offset": "0x0828",
+      "value": "0x00000000"
+    },
+    "INT_CFG3": {
+      "offset": "0x082c",
+      "value": "0x00000000"
+    },
+    "INT_CFG4": {
+      "offset": "0x0830",
+      "value": "0x00000000"
+    },
+    "INT_CFG5": {
+      "offset": "0x0834",
+      "value": "0x00000000"
+    },
+    "INT_CFG6": {
+      "offset": "0x0838",
+      "value": "0x00000000"
+    },
+    "INT_CFG7": {
+      "offset": "0x083c",
+      "value": "0x00000000"
+    },
+    "GPIO_BYPASS_MODE": {
+      "offset": "0x0a00",
+      "value": "0x00000002"
+    },
+    "GPIO_DIRECTION_MODE": {
+      "offset": "0x0a04",
+      "value": "0x00000000"
+    },
+    "GPIO_OUTPUT_ENABLE": {
+      "offset": "0x0a08",
+      "value": "0x00000000"
+    },
+    "GPIO_OUTPUT_VALUE": {
+      "offset": "0x0a0c",
+      "value": "0x00000000"
+    },
+    "GPIO_INPUT_VALUE": {
+      "offset": "0x0a10",
+      "value": "0x0000ffed"
+    },
+    "GPIO_INT_MASK": {
+      "offset": "0x0a14",
+      "value": "0x0000ffff"
+    },
+    "GPIO_INT_MASK_SET": {
+      "offset": "0x0a1c",
+      "value": "0x0000ffed"
+    },
+    "GPIO_INT_STATUS": {
+      "offset": "0x0a20",
+      "value": "0x00000000"
+    },
+    "GPIO_INT_TYPE": {
+      "offset": "0x0a24",
+      "value": "0x00000000"
+    },
+    "GPIO_INT_VALUE": {
+      "offset": "0x0a28",
+      "value": "0x00000000"
+    },
+    "GPIO_INT_ON_ANY": {
+      "offset": "0x0a2c",
+      "value": "0x00000000"
+    }
+  },
+  "descriptor_ram": {
+    "primary_0x4000": {
+      "CONSTANT_ZERO": "0x00000000",
+      "CONSTANT_ONE": "0x00000001",
+      "CONSTANT_NEG_ONE": "0xffffffff",
+      "XFER_CTL_OUTBOUND": "0x00012040",
+      "XFER_CTL_INBOUND": "0x00010040",
+      "CHUNK_SIZE": "0x00000040",
+      "OUTBOUND_CHANNELS": "0x00000080",
+      "INBOUND_CHANNELS": "0x00000080",
+      "PERIODS_PER_IRQ": "0x00000020",
+      "PERIOD_COUNTDOWN": "0x00000003",
+      "WORD_0a": "0x00000000",
+      "WORD_0b": "0x00000000",
+      "WORD_0c": "0x00000000",
+      "WORD_0d": "0x00000000",
+      "WORD_0e": "0x00000000",
+      "WORD_0f": "0x00000000",
+      "OUTBOUND_CHUNKS": "0x00000040",
+      "INBOUND_CHUNKS": "0x00000040",
+      "OUTBOUND_CHANNEL_STRIDE": "0x00001000",
+      "INBOUND_CHANNEL_STRIDE": "0x00001000",
+      "OUTBOUND_BUF_ADDR_LO": "0x6b000000",
+      "OUTBOUND_BUF_ADDR_HI": "0x00000004",
+      "INBOUND_BUF_ADDR_LO": "0x49c00000",
+      "INBOUND_BUF_ADDR_HI": "0x00000003",
+      "OUTBOUND_CUR_CHUNK": "0x00000023",
+      "INBOUND_CUR_CHUNK": "0x00000023",
+      "OUTBOUND_BASE_ADDR_LO": "0x6b000740",
+      "OUTBOUND_BASE_ADDR_HI": "0x00000004",
+      "INBOUND_BASE_ADDR_LO": "0x49c00740",
+      "INBOUND_BASE_ADDR_HI": "0x00000003",
+      "OUTBOUND_WORK_ADDR_LO": "0x00000000",
+      "OUTBOUND_WORK_ADDR_HI": "0x00000000",
+      "INBOUND_WORK_ADDR_LO": "0x00000000",
+      "INBOUND_WORK_ADDR_HI": "0x00000000",
+      "WORD_22": "0x00000000",
+      "WORD_23": "0x00000000",
+      "WORD_24": "0x00000000",
+      "WORD_25": "0x00000000",
+      "WORD_26": "0x00000000",
+      "WORD_27": "0x00000000",
+      "WORD_28": "0x00000000",
+      "WORD_29": "0x00000000",
+      "WORD_2a": "0x00000000",
+      "WORD_2b": "0x00000000",
+      "WORD_2c": "0x00000000",
+      "WORD_2d": "0x00000000",
+      "WORD_2e": "0x00000000",
+      "WORD_2f": "0x00000000",
+      "PROGRAM_30": "0x20000008",
+      "PROGRAM_31": "0xa2000009",
+      "PROGRAM_32": "0x20000018",
+      "PROGRAM_33": "0x10000038",
+      "PROGRAM_34": "0x20000010",
+      "PROGRAM_35": "0xa2000018",
+      "PROGRAM_36": "0x40000014",
+      "PROGRAM_37": "0x5000001a",
+      "PROGRAM_38": "0x20000019",
+      "PROGRAM_39": "0x1000003e",
+      "PROGRAM_3a": "0x20000011",
+      "PROGRAM_3b": "0xa2000019",
+      "PROGRAM_3c": "0x40000016",
+      "PROGRAM_3d": "0x5000001c",
+      "PROGRAM_3e": "0x90001001",
+      "PROGRAM_3f": "0x80000001",
+      "PROGRAM_40": "0x80000002",
+      "PROGRAM_41": "0x1702004e",
+      "PROGRAM_42": "0x20000006",
+      "PROGRAM_43": "0x4000001a",
+      "PROGRAM_44": "0xf0000003",
+      "PROGRAM_45": "0xe0000012",
+      "PROGRAM_46": "0x21000002",
+      "PROGRAM_47": "0x10000044",
+      "PROGRAM_48": "0x20000018",
+      "PROGRAM_49": "0x21000002",
+      "PROGRAM_4a": "0xa2000018",
+      "PROGRAM_4b": "0x4000001a",
+      "PROGRAM_4c": "0xe0000005",
+      "PROGRAM_4d": "0x5000001a",
+      "PROGRAM_4e": "0x1703005b",
+      "PROGRAM_4f": "0x20000007",
+      "PROGRAM_50": "0x4000001c",
+      "PROGRAM_51": "0xf0000004",
+      "PROGRAM_52": "0xe0000013",
+      "PROGRAM_53": "0x21000002",
+      "PROGRAM_54": "0x10000051",
+      "PROGRAM_55": "0x20000019",
+      "PROGRAM_56": "0x21000002",
+      "PROGRAM_57": "0xa2000019",
+      "PROGRAM_58": "0x4000001c",
+      "PROGRAM_59": "0xe0000005",
+      "PROGRAM_5a": "0x5000001c",
+      "PROGRAM_5b": "0x20000009",
+      "PROGRAM_5c": "0x21000002",
+      "PROGRAM_5d": "0xa2000009",
+      "PROGRAM_5e": "0x10000032",
+      "PROGRAM_5f": "0x84000002",
+      "PROGRAM_60": "0x1a000030",
+      "PROGRAM_61": "0x21000002",
+      "PROGRAM_62": "0xa2000011",
+      "PROGRAM_63": "0x10000043",
+      "PROGRAM_64": "0x84000002",
+      "PROGRAM_65": "0x1a000035",
+      "PROGRAM_66": "0x00000000",
+      "PROGRAM_67": "0x00000000",
+      "PROGRAM_68": "0x00000000",
+      "PROGRAM_69": "0x00000000",
+      "PROGRAM_6a": "0x00000000",
+      "PROGRAM_6b": "0x00000000",
+      "PROGRAM_6c": "0x00000000",
+      "PROGRAM_6d": "0x00000000",
+      "PROGRAM_6e": "0x00000000",
+      "PROGRAM_6f": "0x00000000"
+    },
+    "shadow_0x6000": {
+      "CONSTANT_ZERO": "0x00000000",
+      "CONSTANT_ONE": "0x00000001",
+      "CONSTANT_NEG_ONE": "0xffffffff",
+      "XFER_CTL_OUTBOUND": "0x00012040",
+      "XFER_CTL_INBOUND": "0x00010040",
+      "CHUNK_SIZE": "0x00000040",
+      "OUTBOUND_CHANNELS": "0x00000080",
+      "INBOUND_CHANNELS": "0x00000080",
+      "PERIODS_PER_IRQ": "0x00000020",
+      "PERIOD_COUNTDOWN": "0x00000003",
+      "WORD_0a": "0x00000000",
+      "WORD_0b": "0x00000000",
+      "WORD_0c": "0x00000000",
+      "WORD_0d": "0x00000000",
+      "WORD_0e": "0x00000000",
+      "WORD_0f": "0x00000000",
+      "OUTBOUND_CHUNKS": "0x00000040",
+      "INBOUND_CHUNKS": "0x00000040",
+      "OUTBOUND_CHANNEL_STRIDE": "0x00001000",
+      "INBOUND_CHANNEL_STRIDE": "0x00001000",
+      "OUTBOUND_BUF_ADDR_LO": "0x6b000000",
+      "OUTBOUND_BUF_ADDR_HI": "0x00000004",
+      "INBOUND_BUF_ADDR_LO": "0x49c00000",
+      "INBOUND_BUF_ADDR_HI": "0x00000003",
+      "OUTBOUND_CUR_CHUNK": "0x00000023",
+      "INBOUND_CUR_CHUNK": "0x00000023",
+      "OUTBOUND_BASE_ADDR_LO": "0x6b000740",
+      "OUTBOUND_BASE_ADDR_HI": "0x00000004",
+      "INBOUND_BASE_ADDR_LO": "0x49c00740",
+      "INBOUND_BASE_ADDR_HI": "0x00000003",
+      "OUTBOUND_WORK_ADDR_LO": "0x00000000",
+      "OUTBOUND_WORK_ADDR_HI": "0x00000000",
+      "INBOUND_WORK_ADDR_LO": "0x00000000",
+      "INBOUND_WORK_ADDR_HI": "0x00000000",
+      "WORD_22": "0x00000000",
+      "WORD_23": "0x00000000",
+      "WORD_24": "0x00000000",
+      "WORD_25": "0x00000000",
+      "WORD_26": "0x00000000",
+      "WORD_27": "0x00000000",
+      "WORD_28": "0x00000000",
+      "WORD_29": "0x00000000",
+      "WORD_2a": "0x00000000",
+      "WORD_2b": "0x00000000",
+      "WORD_2c": "0x00000000",
+      "WORD_2d": "0x00000000",
+      "WORD_2e": "0x00000000",
+      "WORD_2f": "0x00000000"
+    }
+  },
+  "alsa_state": {
+    "cards": "0 [DantePCIe      ]: DantePCIe - DantePCIe\n                      Dante PCIe\n 1 [NVidia         ]: HDA-Intel - HDA NVidia\n                      HDA NVidia at 0xd8080000 irq 208",
+    "devices": "2: [ 0- 0]: digital audio playback\n  3: [ 0- 0]: digital audio capture\n  4: [ 0]   : control\n  5: [ 1- 3]: digital audio playback\n  6: [ 1- 7]: digital audio playback\n  7: [ 1- 8]: digital audio playback\n  8: [ 1- 9]: digital audio playback\n  9: [ 1- 0]: hardware dependent\n 10: [ 1]   : control\n 33:        : timer",
+    "pcm": "00-00: DantePCIe : DantePCIe PCM : playback 1 : capture 1\n01-03: HDMI 0 : HDMI 0 : playback 1\n01-07: HDMI 1 : HDMI 1 : playback 1\n01-08: HDMI 2 : HDMI 2 : playback 1\n01-09: HDMI 3 : HDMI 3 : playback 1",
+    "pcm0p/info": "card: 0\ndevice: 0\nsubdevice: 0\nstream: PLAYBACK\nid: DantePCIe\nname: DantePCIe PCM\nsubname: subdevice #0\nclass: 0\nsubclass: 0\nsubdevices_count: 1\nsubdevices_avail: 0",
+    "pcm0p/sub0/hw_params": "access: MMAP_NONINTERLEAVED\nformat: S32_LE\nsubformat: STD\nchannels: 128\nrate: 48000 (48000/1)\nperiod_size: 512\nbuffer_size: 1024",
+    "pcm0p/sub0/status": "state: RUNNING\nowner_pid   : 131173\ntrigger_time: 1281124.416926990\ntstamp      : 1281305.593906234\ndelay       : 512\navail       : 512\navail_max   : 512\n-----\nhw_ptr      : 8696320\nappl_ptr    : 8696832",
+    "pcm0c/info": "card: 0\ndevice: 0\nsubdevice: 0\nstream: CAPTURE\nid: DantePCIe\nname: DantePCIe PCM\nsubname: subdevice #0\nclass: 0\nsubclass: 0\nsubdevices_count: 1\nsubdevices_avail: 0",
+    "pcm0c/sub0/hw_params": "access: MMAP_NONINTERLEAVED\nformat: S32_LE\nsubformat: STD\nchannels: 128\nrate: 48000 (48000/1)\nperiod_size: 512\nbuffer_size: 1024",
+    "pcm0c/sub0/status": "state: RUNNING\nowner_pid   : 131173\ntrigger_time: 1281124.416926188\ntstamp      : 1281305.593902659\ndelay       : 0\navail       : 0\navail_max   : 512\n-----\nhw_ptr      : 8696320\nappl_ptr    : 8696320"
+  },
+  "interrupts": "207:          0          0          0          0          0      16985          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0 IR-PCI-MSI-0000:1b:00.0    0-edge      DantePCIe",
+  "meter_peaks": {
+    "rx": {
+      "15": "00000100",
+      "16": "00000100"
+    },
+    "tx": {}
+  }
+}
