@@ -2,7 +2,10 @@
 
 Clean-room Linux ALSA kernel driver for Dante PCIe audio cards based on the Gennum GN4124 PCIe-to-local-bus bridge (PCI 0x1a39:0x0004).
 
-Tested on: Digigram LX-DANTE (discontinued)
+Tested on:
+
+- [Digigram LX-DANTE](https://www.digigram.com/support/discontinued-products/discontinued-sound-cards/lx-dante-support/)
+- [Four Audio Astoria Dante PCI Express Card](https://www.getdante.com/product/four-audio-dante-pci-express-card/) (user-reported)
 
 ![dante-live dashboard](docs/dante-live-screenshot.png)
 

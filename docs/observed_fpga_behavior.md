@@ -9,7 +9,7 @@ proof. No proprietary source code was consulted.
 
 - PCI Vendor: 0x1a39, Device: 0x0004
 - PCI slot: 1b:00.0
-- Card: Digigram LX-DANTE (discontinued)
+- Card: Digigram LX-DANTE
 - Firmware version register (BAR0+0x70): 0x20010010
 - Dante sample rate configured via Dante Controller: 48000 Hz
 
